@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <header>
-    <img src="images/head_photo.png" alt="jiahong" width="120" height="150">
-    <h1>Jia-Hong Huang</h1>
-    <p>Computer Science</p>
-    <p>University of Amsterdam</p>
+     <div class="left-column">
+        <img src="images/head_photo.png" alt="jiahong" width="120" height="150">
+        <h1>Jia-Hong Huang</h1>
+        <p>Ph.D. Candidate</p>
+        <p>Computer Science</p>
+        <p>University of Amsterdam</p>
+             <ul>
+                <li><a href="https://scholar.google.nl/citations?user=SrUWuYkAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                <li><a href="https://www.linkedin.com/in/jia-hong-huang-7139a9b4/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Jhhuangkay?tab=repositories" target="_blank">GitHub</a></li>
+            </ul>
+    <div>
 </header>
 <html>
-<head>
+<!-- <head>
     <title>Your Name - Academic Website</title>
-</head>
+</head> -->
+<div class="left-column">
 <body>
-    <header>
+<!--     <header>
         <h1>Your Name</h1>
         <p>Academic Title</p>
-    </header>
-    <ul>
+    </header> -->
+<!--     <ul>
     <li><a href="https://scholar.google.nl/citations?user=SrUWuYkAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
     <li><a href="https://www.linkedin.com/in/jia-hong-huang-7139a9b4/" target="_blank">LinkedIn</a></li>
     <li><a href="https://github.com/Jhhuangkay?tab=repositories" target="_blank">GitHub</a></li>
-    </ul>
+    </ul> -->
 <!--     <nav>
         <ul>
             <li><a href="#https://scholar.google.nl/citations?user=SrUWuYkAAAAJ&hl=en">Google Scholar</a></li>
@@ -27,8 +36,8 @@
         </ul>
     </nav> -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am Jia-Hong Huang, a final-year computer science Ph.D. student at the University of Amsterdam in the Netherlands. I hold Bachelor's degrees in Mathematical Sciences and Statistics from National Chengchi University (2014), a Master's degree in Mechanical Engineering from National Taiwan University (2016), and another Master's degree in Electrical Engineering from King Abdullah University of Science and Technology (2018). My research revolves around multi-modal machine learning applications, with a particular focus on developing algorithms to analyze and comprehend video, image, audio, and text data. I have worked on exciting projects such as automatic video summarization, automatic medical report generation, visual question answering, and active speaker detection. During my time at the University of Amsterdam, I have made contributions to the field, publishing several papers in renowned AI-related conferences like AAAI, ICCV, CVPR, WACV, ICIP, ACCV, ICME, ICMR, ICASSP, and ICML. Additionally, I actively participate as a reviewer for esteemed journals and conferences in this domain. Apart from research, I am passionate about mentoring students, and I have organized and participated in various workshops and seminars related to machine learning. Throughout my academic journey, I have been recognized with prestigious awards and fellowships, including the Government Scholarship to Study Abroad from Taiwan and the Marie Skłodowska–Curie Actions Fellowship from the European Union. After completing my Ph.D., my aspiration is to pursue a career in industry, where I can continue conducting cutting-edge research in multi-modal machine learning and inspire the next generation of computer science researchers.</p>
+        <h2>Jia-Hong Huang</h2>
+        <p>I am a final-year computer science Ph.D. student at the University of Amsterdam in the Netherlands. I hold Bachelor's degrees in Mathematical Sciences and Statistics from National Chengchi University (2014), a Master's degree in Mechanical Engineering from National Taiwan University (2016), and another Master's degree in Electrical Engineering from King Abdullah University of Science and Technology (2018). My research revolves around multi-modal machine learning applications, with a particular focus on developing algorithms to analyze and comprehend video, image, audio, and text data. I have worked on exciting projects such as automatic video summarization, automatic medical report generation, visual question answering, and active speaker detection. During my time at the University of Amsterdam, I have made contributions to the field, publishing several papers in renowned AI-related conferences like AAAI, ICCV, CVPR, WACV, ICIP, ACCV, ICME, ICMR, ICASSP, and ICML. Additionally, I actively participate as a reviewer for esteemed journals and conferences in this domain. Apart from research, I am passionate about mentoring students, and I have organized and participated in various workshops and seminars related to machine learning. Throughout my academic journey, I have been recognized with prestigious awards and fellowships, including the Government Scholarship to Study Abroad from Taiwan and the Marie Skłodowska–Curie Actions Fellowship from the European Union. After completing my Ph.D., my aspiration is to pursue a career in industry, where I can continue conducting cutting-edge research in multi-modal machine learning and inspire the next generation of computer science researchers.</p>
 <!--         Jia-Hong Huang is a final-year computer science Ph.D. candidate at the University of Amsterdam. He received his Bachelor's degrees in Mathematical Sciences and Statistics from National Chengchi University in 2014, his first Master's degree in Mechanical Engineering from National Taiwan University in 2016, and his second Master's degree in Electrical Engineering from King Abdullah University of Science and Technology in 2018. Jia-Hong's research focuses on multi-modal machine learning applications, particularly on developing algorithms that can analyze and understand video, image, and text data, with applications in automatic video summarization, automatic medical report generation, and visual question answering. During his time at the University of Amsterdam, Jia-Hong has established himself as a prolific researcher and has published numerous papers in top-tier AI-related conferences such as AAAI, ICCV, CVPR, WACV, ICIP, ACCV, ICME, ICMR, ICASSP, and ICML. He has also served as a reviewer for several prestigious journals and conferences in the field. In addition to his research, Jia-Hong is an active mentor to students and has organized and participated several workshops and seminars related to machine learning. He has received various awards and fellowships, including the Government Scholarship to Study Abroad from Taiwan and the Marie Skłodowska–Curie Actions Fellowship from the European Union. After completing his Ph.D., Jia-Hong intends to pursue a career in academia or industry, where he can continue to conduct cutting-edge research in multi-modal machine learning and mentor the next generation of computer science researchers. -->
     </section>
 <!--     <section id="Selected Publications">
@@ -61,6 +70,45 @@
         .name-emphasis {
             font-weight: bold;
         }
+
+
+
+        /* Apply styles to the container */
+        .container {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Set a fixed height for vertical centering */
+        }
+
+        /* Apply styles to the left column */
+        .left-column {
+            float: left;
+            width: 80%; /* Adjust the width as needed */
+            margin-right: 50px; /* Add margin to the right side (adjust as needed) */
+        }
+
+        /* Apply styles to the right column */
+        .right-column {
+            float: right;
+            width: 20%; /* Adjust the width as needed */
+            margin-left: 20px; /* Add margin to the left side (adjust as needed) */
+        }
+
+        /* Add additional styles for your content sections as needed */
+        .right-column section {
+            padding: 20px; /* Adjust padding as needed */
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
+            text-align: justify; /* Spread the text evenly */
+            text-justify: inter-word; /* Apply justification for better spacing */
+            line-height: 1.5; /* Adjust line height for better readability */
+            box-sizing: border-box; /* Include padding and border in the element's total width */
+            overflow: hidden; /* Hide overflow content */
+        }
+
+
+
 
     </style>
 
@@ -130,4 +178,5 @@
         <p>You can reach me at j [dot] huang [at] uva [dot] nl.</p>
     </section>
 </body>
+<div>
 </html>
