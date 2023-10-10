@@ -36,30 +36,66 @@
         <p>List your publications here with links to the full papers.</p>
     </section> -->
 
+    <style>
+        .publication {
+            display: flex; /* Use flexbox for side-by-side layout */
+            align-items: center; /* Vertically center content */
+            margin-bottom: 20px; /* Adjust spacing between publications */
+        }
+
+        .publication img {
+            max-width: 100px; /* Limit the width of the thumbnail */
+            margin-right: 20px; /* Adjust spacing between thumbnail and text */
+        }
+
+        .publication-info {
+            flex: 1; /* Allow text to take up remaining space */
+        }
+
+    /* Define the underlined class */
+        .underlined {
+            text-decoration: underline;
+        }
+
+    /* Define the name-emphasis class */
+        .name-emphasis {
+            font-weight: bold;
+        }
+
+    </style>
+
+
+
+
     <section id="SelectedPublications">
         <h2>Selected Publications</h2>
         <ul>
-            <li>
+            <!-- <li> -->
                 <div class="publication">
-                    <img src="images/head_photo.png" alt="Publication 1 Thumbnail">
-                    <h3><a href="https://ieeexplore.ieee.org/abstract/document/10222138">Query-Based Video Summarization with Pseudo Label Supervision</a></h3>
-                    <p>Jia-Hong Huang, Luka Murn, Marta Mrak, Marcel Worring</p>
-                    <p>IEEE International Conference on Image Processing (ICIP), 2023</p>
-                    <p>Year: Publication Year</p>
+                    <img src="images/head_photo.png" alt="Publication 1 Thumbnail width="150" height="120">
+                    <div class="publication-info">
+                        <h3><a href="https://ieeexplore.ieee.org/abstract/document/10222138">Query-Based Video Summarization with Pseudo Label Supervision</a></h3>
+                        <p><span class="name-emphasis">Jia-Hong Huang</span>, Luka Murn, Marta Mrak, Marcel Worring</p>
+                        <p>IEEE International Conference on Image Processing (ICIP), 2023</p>
+                        <p>Year: Publication Year</p>
+                    </div>
                 </div>
-            </li>
-            <li>
+            <!-- </li> -->
+            <!-- <li> -->
                 <div class="publication">
-                    <img src="images/head_photo.png" alt="Publication 2 Thumbnail">
-                    <h3><a href="publication2_url">Publication Title 2</a></h3>
-                    <p>Authors: Author 1, Author 2, ...</p>
-                    <p>Conference/Journal: Conference/Journal Name</p>
-                    <p>Year: Publication Year</p>
+                    <img src="images/head_photo.png" alt="Publication 2 Thumbnail width="150" height="120">
+                    <div class="publication-info">
+                        <h3><a href="publication2_url">Publication Title 2</a></h3>
+                        <p>Authors: Author 1, Author 2, ...</p>
+                        <p>Conference/Journal: Conference/Journal Name</p>
+                        <p>Year: Publication Year</p>
+                    </div>
                 </div>
-            </li>
+            <!-- </li> -->
             <!-- Add more publications as needed -->
         </ul>
     </section>
+
 
     <section id="Selected Invited Talks">
         <h2>Selected Invited Talks</h2>
